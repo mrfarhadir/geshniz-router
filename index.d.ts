@@ -1,7 +1,7 @@
 import { Application, Router } from "express"
 import { NuxtService as NuxtServiceClass } from "./src"
 
-declare abstract class App {
+type App = {
     router: Router
     server: Application
 
@@ -10,7 +10,7 @@ declare abstract class App {
     registerService(service: NuxtServiceClass): void
 }
 
-declare abstract class NuxtService {
+type NuxtService = {
     constructor(config: ServiceConfig)
 }
 
