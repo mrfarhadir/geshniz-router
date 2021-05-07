@@ -5,5 +5,9 @@ const geshnizRouter: GeshnizRouter = {
     App,
     NuxtService
 }
-
+export {
+    App,
+    NuxtService,
+    geshnizRouter
+}
 export default geshnizRouter
