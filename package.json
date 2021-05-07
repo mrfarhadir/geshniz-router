@@ -1,0 +1,18 @@
+{
+  "name": "geshniz-router",
+  "version": "1.0.0",
+  "author": {
+    "email": "info@mrfarhad.ir",
+    "name": "Farhad Mehryari",
+    "url": "https://mrfarhad.ir"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nuxt": "^2.15.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "typescript": "^4.2.4"
+  }
+}
