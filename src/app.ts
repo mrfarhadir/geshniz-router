@@ -1,6 +1,6 @@
 
 import {Application, application} from 'express'
-import express = require('express')
+import * as express from 'express'
 import {NuxtService} from "./services/nuxt";
 
 
