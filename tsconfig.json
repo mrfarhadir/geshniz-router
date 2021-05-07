@@ -6,7 +6,8 @@
     "target": "ESNext",
     "sourceMap": true,
     "moduleResolution": "Node",
-    "outDir": "dist"
+    "outDir": "dist",
+    "typeRoots": ["./types"]
   },
   "exclude": [
     "node_modules"
