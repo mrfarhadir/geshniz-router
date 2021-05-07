@@ -5,3 +5,5 @@ export {
     App,
     NuxtService
 }
+
+export default App
