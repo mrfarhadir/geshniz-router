@@ -1,2 +1,2 @@
-const {App, NuxtService} = require('./dist/index')
-module.exports = NuxtService
+const geshnizRouter = require('./dist/index')
+module.exports = geshnizRouter

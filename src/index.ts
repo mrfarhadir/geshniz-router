@@ -1,9 +1,9 @@
 import {App} from "./app";
 import {NuxtService} from "./services/nuxt";
 
-export {
+const geshnizRouter: GeshnizRouter = {
     App,
     NuxtService
 }
 
-export default App
+export default geshnizRouter
