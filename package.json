@@ -1,10 +1,13 @@
 {
   "name": "geshniz-router",
-  "version": "1.0.01",
+  "version": "1.0.2",
   "author": {
     "email": "info@mrfarhad.ir",
     "name": "Farhad Mehryari",
     "url": "https://mrfarhad.ir"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
   },
   "dependencies": {
     "express": "^4.17.1",
