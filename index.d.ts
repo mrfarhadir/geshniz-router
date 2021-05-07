@@ -14,9 +14,9 @@ interface NuxtService {
     constructor(config: ServiceConfig)
 }
 
-type GeshnizRouter = {
-    App
-    NuxtService
+interface GeshnizRouter {
+    App: App
+    NuxtService: NuxtService
 }
 
 declare const geshnizRouter: GeshnizRouter
