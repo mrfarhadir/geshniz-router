@@ -1,6 +1,7 @@
 {
   "name": "geshniz-router",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "main": "index.js",
   "author": {
     "email": "info@mrfarhad.ir",
     "name": "Farhad Mehryari",
