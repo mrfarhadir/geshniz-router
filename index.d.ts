@@ -15,8 +15,8 @@ type NuxtService = {
 }
 
 interface GeshnizRouter {
-    App: App
-    NuxtService: NuxtService
+    App
+    NuxtService: NuxtServiceClass
 }
 
 declare const geshnizRouter: GeshnizRouter
